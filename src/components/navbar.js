@@ -17,4 +17,5 @@ const Navbar = props => {
     )
 }
 
+// se exporta con withRouter para poder tener acceso a history, location and match del componente Route
 export default withRouter(Navbar);
